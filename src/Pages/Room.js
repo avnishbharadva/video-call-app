@@ -30,14 +30,16 @@ const Room = () => {
                 url: `http://localhost/room/${roomId}`,
             },
         ],
-        showScreenSharingButton : true,
+        // showScreenSharingButton : true,
     })
   }
 
   return (
+    <>
     <div>
-        <div ref={myCall} style={{ width: '98vw', height: '95vh' }} />
+        <div ref={myCall} style={{ width: '100vw', height: '100vh' }} />
     </div>    
+    </>
   )
 }
 
