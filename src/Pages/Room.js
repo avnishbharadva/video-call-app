@@ -27,7 +27,8 @@ const Room = () => {
         sharedLinks : [
             {
                 name: "Copy Link",
-                url: `http://localhost/room/${roomId}`,
+                url: `https://aviis-video-call-app.netlify.app/room/${roomId}`,
+                // https://aviis-video-call-app.netlify.app/room/first777
             },
         ],
         // showScreenSharingButton : true,
